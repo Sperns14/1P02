@@ -1,0 +1,16 @@
+body{background-color: white}
+
+#header{background-color: red;
+height: 50px;
+text-align: center;
+font-weight: bold;
+}
+
+#content{background-color: green;
+height: 600px
+}
+
+
+#footer{background-color: blue;
+height: 50px
+}

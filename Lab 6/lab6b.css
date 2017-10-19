@@ -1,0 +1,21 @@
+body{background-color: green}
+
+
+#wrapper{width: 700px; height: 600px; margin:0 auto;}
+
+#header{background-color: red; width:700px; height: 50px;
+text-align: center; font-weight: bold;}
+
+
+#nav1{background-color: pink;
+float:left; width: 200px; height: 50px; font-weight: bold;}
+
+#nav2{background-color: orange;
+float:left; width: 500px; height: 50px; font-weight: bold;}
+
+#content{background-color: blue;
+  float:left; width: 700px; height: 600px; font-weight: bold;}
+
+
+#footer{background-color: yellow; height: 50px; font-weight: bold;
+ clear: left;}
