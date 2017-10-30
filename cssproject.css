@@ -22,7 +22,7 @@ text-align: center;
 font-weight: bold;
 }
 
-#wrapper{width: 1000px; height: 1500px; margin:0 auto;}
+#wrapper{width: 1000px; height: 10px; margin:0 auto;}
 
 #content{background-color: #ff66cc;
-  float:left; width: 1000px; height: 1500px; font-weight: bold;}
+  padding-left: 750px ; padding-right: 778px; width: 1000px; height: 1500px; font-weight: bold;}
