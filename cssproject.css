@@ -1,0 +1,28 @@
+body{background-color: pink;}
+
+
+.greentext{color: green;}
+
+.bigtext{font-size: 50px;}
+
+.h1,.h2{font-family:"Impact";}
+
+.uppercase{text-transform: uppercase;}
+
+.fixed{
+  top:10px;
+  right:10px;
+  position:fixed;
+}
+
+
+#header{background-color: green;
+height: 50px;
+text-align: center;
+font-weight: bold;
+}
+
+#wrapper{width: 1000px; height: 1500px; margin:0 auto;}
+
+#content{background-color: #ff66cc;
+  float:left; width: 1000px; height: 1500px; font-weight: bold;}
