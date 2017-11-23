@@ -21,7 +21,7 @@ if (color == userColor){
 }
 
 else{
-  document.getElementById('output').innerHTML="you are the gay"
+  document.getElementById('output').innerHTML="I hate you and everything you stand for"
 }
 
 }
