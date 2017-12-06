@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta content="en-us" http-equiv="Content-Language" />
+		<title>Good boys!</title>
+		<link href="Finalsite.css" type="text/css" rel="stylesheet" />
+		<link href="lightbox.css" rel="stylesheet"/>
+		<script type="text/javascript" src="Finalsite2.js"></script>
+	</head>
+
+	<body>
+
+		<div id="wrapper"></div>
+			<div id="header"> LOOK AT THESE GOOD BOYS</div>
+			<div id ="nav1">
+				<a href="Finalsite1.html">Click for the Home page</a>
+				<a href="Finalsite3.html">Click to go to See some bad boys.</a>
+			</div>
+
+		<div id="content">
+		<br/>
+		<br/>
+		<h1 class="h1">This is a good boy</h1>
+			<a href="goodboy.jpg" data-lightbox="good boy" data-title="LOOK AT HIM"><img src="goodboy.jpg" alt="goodboy" /></a>
+		<br/>
+			<p>What you are looking at right now is a very good boy. Look at him, look at his face. See? Good boy. Great boy even.
+				I will now list the reasons you are looking at a <strong>VERY GOOD BOY</strong>
+			</p>
+			<br/>
+			<ul>
+				<li>He does his best</li>
+				<li class="bigtext">Those ears</li>
+				<li class="greentext">Just look at him he makes me happy he's such a good boy</li>
+			</ul>
+
+			<p>Excuse me, i got slightly emotional there. But as you can see, good boys are very, well, good!
+				So we know why HE'S a good boy, but what about other things? what follows is a list of things that can
+				consitiute a good boy.
+			</p>
+
+			<ul>
+				<li>Unconditional love</li>
+				<li>Making pancakes</li>
+				<li>Writing a new york times best seller</li>
+			</ul>
+
+			<img src="http://i.imgur.com/FtfojO6.jpg" alt="perfect boye"/>
+
+			<p>See? Look how good that boy is. But i'll let you all in on a secret. the best boy, is the one you love the most.
+				So go ahead and add your good boy to the list.
+			</p>
+
+			<h3>Good boy goes here</h3>
+
+			<button type="button" onclick="doit()">Add a good boy</button>
+
+		<br/>
+
+			<textarea id="textbox" rows="10" cols="50">Good boys:</textarea>
+
+
+ 		</div>
+
+			<br/>
+			<p id="absolute2"> Date goes here</p>
+			<p id="clock2">Time goes here</p>
+
+			<script type ="text/javascript">
+			var date = new Date();
+		  var Day = date.getDate();
+		  var Month = date.getMonth()+1;
+		  var Year = date.getFullYear();
+		  if (Day<10) {
+		    Day = '0'+Day
+
+		  }
+		  if (Month<10) {
+		    Month = '0'+Month
+
+		  }
+		  date =  Day + '/' + Month + '/' + Year;
+		  document.getElementById("absolute2").innerHTML=date;
+		  console.log(date);
+
+			</script>
+
+		<script type="text/javascript">
+			function doit() {
+			var boye = prompt("Please enter your Good boy:", "YOU.");
+    	document.getElementById("textbox").innerHTML+=boye +" ";
+			}
+
+		</script>
+
+			<script type="text/javascript" src="lightbox-plus-jquery.js"></script>
+			//lightbox created by Lokesh Dhakar, http://lokeshdhakar.com/projects/lightbox2/
+	</body>
+
+</html>
